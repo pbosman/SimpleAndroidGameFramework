@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SimpleAndroidGameFramework.iml" filepath="$PROJECT_DIR$/SimpleAndroidGameFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleAndroidGameFrameworkLib/SimpleAndroidGameFrameworkLib.iml" filepath="$PROJECT_DIR$/SimpleAndroidGameFrameworkLib/SimpleAndroidGameFrameworkLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pong/pong.iml" filepath="$PROJECT_DIR$/pong/pong.iml" />
     </modules>
   </component>
 </project>

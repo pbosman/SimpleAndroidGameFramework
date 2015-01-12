@@ -1,1 +1,1 @@
-include ':SimpleAndroidGameFrameworkLib'
+include ':SimpleAndroidGameFrameworkLib', ':pong'

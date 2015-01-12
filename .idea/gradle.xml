@@ -7,8 +7,9 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\dev\android\SimpleAndroidGameFramework" />
-            <option value="C:\dev\android\SimpleAndroidGameFramework\SimpleAndroidGameFrameworkLib" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/SimpleAndroidGameFrameworkLib" />
+            <option value="$PROJECT_DIR$/pong" />
           </set>
         </option>
       </GradleProjectSettings>
