@@ -1,14 +1,13 @@
 package simpleandroidgameframework.outhousedev.pong;
 
+import android.app.Activity;
 import android.content.pm.ActivityInfo;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -16,7 +15,8 @@ import java.util.ArrayList;
 
 import outhousedev.simpleandroidgameframework.simpleandroidgameframeworklib.GameSurface;
 
-public class MainActivity extends ActionBarActivity {
+
+public class MainActivity extends Activity {
 
     private GameSurface _gameSurface;
     private static final String TAG = MainActivity.class.getSimpleName();

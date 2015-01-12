@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import outhousedev.simpleandroidgameframework.simpleandroidgameframeworklib.IGameObject;
 import outhousedev.simpleandroidgameframework.simpleandroidgameframeworklib.Sprite;
 import outhousedev.simpleandroidgameframework.simpleandroidgameframeworklib.Stage;
-import simpleandroidgameframework.outhousedev.pong.R;
+
 
 /**
  * Created by PBosman on 21/11/2014.
@@ -16,6 +16,7 @@ public class GameObjectFactory {
     public ArrayList<IGameObject> createGameObjects(View view) {
         return createPongGameObjects(view);
     }
+
 
     private ArrayList<IGameObject> createPongGameObjects(View view) {
         ArrayList<IGameObject> gameObjects = new ArrayList<IGameObject>();
