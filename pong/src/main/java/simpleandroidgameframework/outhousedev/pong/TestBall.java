@@ -11,8 +11,8 @@ import outhousedev.simpleandroidgameframework.simpleandroidgameframeworklib.Spri
 public class TestBall extends Sprite {
     float Ox = 0;
     float Oy = 0;
-    float Vx = -50;
-    float Vy = -50;
+    float Vx = -0.50f;
+    float Vy = -0.50f;
     float X;
     float Y;
     float t0;
@@ -38,18 +38,18 @@ public class TestBall extends Sprite {
         boolean _touchingBat2 = false;
         t0 = (float)getTimer();
 
-        int top = -100;
-        int bottom = 100;
-        int left = -100;
-        int right = 100;
+        float top = -1;
+        float bottom = 1;
+        float left = -1;
+        float right = 1;
 
         gotoXY(0, 0);
 
         while(isRunning()) {
             waitWhilePaused();
 
-            // ToDo: Fix bug: should be getTimer - t0. This will mess things up since t will no longer be +ve.
-            float t = t0 - (float)getTimer();
+            // Time since t0.
+            float t = (float)getTimer() - t0;
 
             X = Ox + Vx * t;
             Y = Oy + Vy * t;
@@ -91,7 +91,7 @@ public class TestBall extends Sprite {
             if(isTouchingSprite("bat1")) {
                 if(!_touchingBat1) {
                     // Only count hit if ball approaching from right.
-                    if(Vx > 0f) {
+                    if(Vx < 0f) {
                         playSound("ping");
                         broadcastMessage("bat1hit");
                     }
@@ -109,7 +109,7 @@ public class TestBall extends Sprite {
             if(isTouchingSprite("bat2")) {
                 if(!_touchingBat2) {
                     // Only count hit if ball approaching from left.
-                    if(Vx < 0f) {
+                    if(Vx > 0f) {
                         playSound("pong");
                         broadcastMessage("bat2hit");
                     }
