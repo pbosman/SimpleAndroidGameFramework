@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\pre-dexed\debug\classes-e5b0d2898c0caf560cd52e5b65704cda8d99a1f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\pbosman\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-4ba093709bd161a546f6dca7e6ce688e6750b93e.jar" />
+    </item>
+    <item
+        jar="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-e0141cea4bcd0b2cd832b38b78aed0229c01520d.jar" />
+    </item>
+    <item
+        jar="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\pre-dexed\debug\classes-532039adb1a97930a45967df06233276cfaebd7f.jar" />
+    </item>
+    <item
+        jar="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\exploded-aar\SimpleAndroidGameFramework\SimpleAndroidGameFrameworkLib\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1862681f9a1a5ac62b08789f98ce6c7cb25b86c1">
+        <dex dex="C:\dev\android\SimpleAndroidGameFramework\pong\build\intermediates\pre-dexed\debug\classes-dd5a8423b17fc37ced55f386e50cf65baa0b90ac.jar" />
+    </item>
+
+</items>
